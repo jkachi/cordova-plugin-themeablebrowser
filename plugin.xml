@@ -48,6 +48,15 @@
         <source-file src="src/android/ThemeableBrowserDialog.java" target-dir="src/com/initialxy/cordova/themeablebrowser" />
         <source-file src="src/android/InAppChromeClient.java" target-dir="src/com/initialxy/cordova/themeablebrowser" />
         <source-file src="src/android/ThemeableBrowserUnmarshaller.java" target-dir="src/com/initialxy/cordova/themeablebrowser" />
+
+      <resource-file src="src/android/res/drawable-xhdpi/back.png" target="res/drawable-xhdpi/tb_back.png" />
+      <resource-file src="src/android/res/drawable-xhdpi/back-pressed.png" target="res/drawable-xhdpi/tb_back_pressed.png" />
+      <resource-file src="src/android/res/drawable-xhdpi/close.png" target="res/drawable-xhdpi/tb_close.png" />
+      <resource-file src="src/android/res/drawable-xhdpi/close-pressed.png" target="res/drawable-xhdpi/tb_close_pressed.png" />
+      <resource-file src="src/android/res/drawable-xhdpi/forward.png" target="res/drawable-xhdpi/tb_forward.png" />
+      <resource-file src="src/android/res/drawable-xhdpi/forward-pressed.png" target="res/drawable-xhdpi/tb_forward_pressed.png" />
+      <resource-file src="src/android/res/drawable-xhdpi/share.png" target="res/drawable-xhdpi/tb_share.png" />
+      <resource-file src="src/android/res/drawable-xhdpi/share-pressed.png" target="res/drawable-xhdpi/tb_share_pressed.png" />
     </platform>
 
     <!-- ios -->
@@ -63,6 +72,15 @@
 
         <header-file src="src/ios/CDVThemeableBrowser.h" />
         <source-file src="src/ios/CDVThemeableBrowser.m" />
+
+        <resource-file src="src/ios/Resources/tb_back@3x.png" />
+        <resource-file src="src/ios/Resources/tb_back_pressed@3x.png" />
+        <resource-file src="src/ios/Resources/tb_close@3x.png" />
+        <resource-file src="src/ios/Resources/tb_close_pressed@3x.png" />
+        <resource-file src="src/ios/Resources/tb_forward@3x.png" />
+        <resource-file src="src/ios/Resources/tb_forward_pressed@3x.png" />
+        <resource-file src="src/ios/Resources/tb_share@3x.png" />
+        <resource-file src="src/ios/Resources/tb_share_pressed@3x.png" />
         
         <framework src="CoreGraphics.framework" />
     </platform>
